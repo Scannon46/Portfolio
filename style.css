@@ -1,0 +1,104 @@
+/*
+STYLE.CSS sheet
+*/
+@import url(https://necolas.github.io/normalize.css/);
+
+/* start of webpage */
+
+header{
+	background-color:#000 ;
+	height: 150px;
+	margin:0 0 0 0;
+}
+#content {
+	padding-top:0;
+	min-height: 0;
+}
+footer {
+	background-color: #000;
+}
+h1{
+	font-family: "Baskerville Old-Face", "sans-serif";
+	font-size: 40px;
+	padding-top: 40px;
+	margin: 0 0 0 0;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+}
+h3 {
+  font-family: "Baskerville Old-Face", "sans-serif";
+	font-size: 16px;
+	padding-top: 40px;
+	margin: 0 0 0 0;
+	text-decoration: none;
+	color: #fff;
+	text-align: center
+}
+
+footer {
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	margin: 0 0 0 0; 
+	background-color: #000;
+}
+
+hr {
+	height: 2px;
+	background-color: #ffe4e1;
+	border: none;
+	margin:0 0 0 0;
+}
+body {
+	background-color:	#ffe4e1;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+h2 {
+  font-family: "Baskerville Old-Face", "sans-serif";
+  font-size: 24px;
+	margin: 0 0 0 0;
+	text-decoration: none;
+	color: #000;
+	text-align: center;
+}
+p {
+	font-family: "Baskerville Old-Face", "sans-serif";
+	font-size: 18px;
+	line-height: 28px;
+	color: #000;
+	text-align:center
+}
+ol {
+  text-align: left;
+  margin-left: 40%;
+  margin-bottom: 0;
+}
+ul {
+  text-align: left;
+  margin-left: 40%;
+}
+img {
+  border-radius: 12%;
+  margin:0;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 250px;
+}
+a:link {
+	color: #0000ff;
+}
+a:visited{
+	color: #0000ff;
+}
+a:hover{
+  color:#0000ff;
+}
+a:active{
+  color:#0000ff;
+}
